@@ -1,0 +1,22 @@
+# Node.js dependencies
+node_modules/
+
+# Python virtual environment
+venv/
+__pycache__/
+
+# Mac system files
+.DS_Store
+
+# Environment and config
+.env
+
+# Logs
+*.log
+
+# VS Code settings (optional)
+.vscode/
+
+# Swap files (temporary)
+*.swp
+
