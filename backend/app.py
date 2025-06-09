@@ -14,6 +14,10 @@ def get_db_connection():
         database="users"    # apna DB naam yahan likho
     )
 
+@app.route("/")
+def home():
+    return "Flask backend is running!"
+
 # ✅ Insert API
 @app.route('/add_user', methods=['POST'])
 def add_user():
