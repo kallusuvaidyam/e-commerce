@@ -1,0 +1,196 @@
+{
+  "users": [
+    {
+      "id": "2",
+      "name": "John Doe",
+      "email": "john@example.com",
+      "password": "********",
+      "phone_num": "123-456-7890",
+      "address": "123 Main St, Anytown, USA"
+    },
+    {
+      "id": "a8a4",
+      "name": "Kallu kumar",
+      "email": "kumarkallu56345@gmail.com",
+      "password": "kallauskl",
+      "phone": "9065896528",
+      "address": "Rahampur"
+    },
+    {
+      "id": "8983",
+      "name": "Ajmat",
+      "email": "aj@gmail.com",
+      "password": "198237",
+      "phone": "6204433636",
+      "address": ""
+    },
+    {
+      "id": "44ac",
+      "name": "Kallu kumar",
+      "email": "kumarkallu56345@gmail.com",
+      "password": "HH@n^bd_HBC)",
+      "phone": "9065896528",
+      "address": "Rahampur"
+    },
+    {
+      "id": "6f88",
+      "name": "Kallu kumar",
+      "email": "kumarkallu56345@gmail.com",
+      "password": "P^wW=r302q9A",
+      "phone": "9065896528",
+      "address": "Rahampur"
+    },
+    {
+      "id": "e4cd",
+      "name": "Kallu kumar",
+      "email": "kumarkallu56345@gmail.com",
+      "password": "ICoz-7UsXu1K",
+      "phone": "9065896528",
+      "address": "Rahampur"
+    },
+    {
+      "id": "64a1",
+      "name": "Kallu kumar",
+      "email": "kumarkallu56345@gmail.com",
+      "password": "$7s7tNm=9FRP",
+      "phone": "9065896528",
+      "address": "Rahampur"
+    },
+    {
+      "id": "7c34",
+      "name": "Kallu kumar",
+      "email": "kumarkallu56345@gmail.com",
+      "password": "WY6=vy5R=GtT",
+      "phone": "9065896528",
+      "address": "Rahampur"
+    },
+    {
+      "id": "0179",
+      "name": "Kallu kumar",
+      "email": "kumarkallu56345@gmail.com",
+      "password": "wA^OfGk8q0ke",
+      "phone": "9065896528",
+      "address": "Rahampur"
+    },
+    {
+      "id": "4538",
+      "name": "Kallu kumar",
+      "email": "kumarkallu56345@gmail.com",
+      "password": "2U-M!5vrIuAl",
+      "phone": "9065896528",
+      "address": "Rahampur"
+    },
+    {
+      "id": "9c6a",
+      "name": "Kallu kumar",
+      "email": "kumarkallu56345@gmail.com",
+      "password": "pcV+sQyGD-jx",
+      "phone": "9065896528",
+      "address": "Rahampur"
+    },
+    {
+      "id": "e705",
+      "name": "Kallu kumar",
+      "email": "kumarkallu56345@gmail.com",
+      "password": "Qog2&&AhgeRn",
+      "phone": "9065896528",
+      "address": "Rahampur"
+    },
+    {
+      "id": "5592",
+      "name": "Kallu kumar",
+      "email": "kumarkallu56345@gmail.com",
+      "password": "rzH$i=HpH08L",
+      "phone": "9065896528",
+      "address": "Rahampur"
+    },
+    {
+      "id": "5527",
+      "name": "Kallu kumar",
+      "email": "kumarkallu56345@gmail.com",
+      "password": "KAx@-rw%=0In",
+      "phone": "9065896528",
+      "address": "Rahampur"
+    },
+    {
+      "id": "8354",
+      "name": "Kallu kumar",
+      "email": "kumarkallu56345@gmail.com",
+      "password": "iGAeTSD67+8s",
+      "phone": "9065896528",
+      "address": "Rahampur"
+    },
+    {
+      "id": "8a9c",
+      "name": "Kallu kumar",
+      "email": "kumarkallu56345@gmail.com",
+      "password": "&%pf3*Hbae8m",
+      "phone": "9065896528",
+      "address": "Rahampur"
+    },
+    {
+      "id": "e388",
+      "name": "Kallu kumar",
+      "email": "kumarkallu56345@gmail.com",
+      "password": "gl^S+iMB3guR",
+      "phone": "9065896528",
+      "address": "Rahampur"
+    },
+    {
+      "id": "e719",
+      "name": "Kallu kumar",
+      "email": "kumarkallu56345@gmail.com",
+      "password": "b0wJEz$ZVZMB",
+      "phone": "9065896528",
+      "address": "Rahampur"
+    },
+    {
+      "id": "25eb",
+      "name": "Kallu kumar",
+      "email": "kumarkallu56345@gmail.com",
+      "password": "!a31fA+qrP2I",
+      "phone": "9065896528",
+      "address": "Rahampur"
+    },
+    {
+      "id": "cbaf",
+      "name": "Kallu kumar",
+      "email": "kumarkallu56345@gmail.com",
+      "password": "pm7-IW$*%GQY",
+      "phone": "9065896528",
+      "address": "Rahampur"
+    },
+    {
+      "id": "0d6e",
+      "name": "Kallu kumar",
+      "email": "kumarkallu56345@gmail.com",
+      "password": "8wO5AEj-TRo#",
+      "phone": "9065896528",
+      "address": "Rahampur"
+    },
+    {
+      "id": "f6cc",
+      "name": "Kallu kumar",
+      "email": "kumarkallu56345@gmail.com",
+      "password": "xf%&gMka3l(U",
+      "phone": "9065896528",
+      "address": "Rahampur"
+    },
+    {
+      "id": "b78a",
+      "name": "Kallu kumar",
+      "email": "kumarkallu56345@gmail.com",
+      "password": "leNIglQ=68z9",
+      "phone": "9065896528",
+      "address": "Rahampur"
+    },
+    {
+      "id": "ad02",
+      "name": "Kallu kumar",
+      "email": "kumarkallu56345@gmail.com",
+      "password": "1K=&g&Qb5*lo",
+      "phone": "9065896528",
+      "address": "Rahampur"
+    }
+  ]
+}
