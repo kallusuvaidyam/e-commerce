@@ -3,7 +3,8 @@ import axios from "axios";
 
 export default function useUsers_data() {
   // let url = 'http://localhost:8080/users/'
-  let url = 'http://localhost:5000/'
+  // let url = 'http://localhost:5000/'
+  let url = 'https://flask-backend-35vq.onrender.com'
   let users = ref([])
   let err = ref(null)
 
@@ -15,7 +16,7 @@ export default function useUsers_data() {
     try {
       const config = {
         method: 'POST',
-        url: url + 'add_user',
+        url: url + 'add_user/',
         headers: {
           'Content-Type': 'application/json',
         },
