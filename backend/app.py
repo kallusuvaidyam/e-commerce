@@ -23,7 +23,7 @@ db = mysql.connector.connect(
     user="root",
     password="CfhjiuQPraDsuNKOfUMAasRwfHnwYfXX",
     port=33688,
-    database="railway"
+    database="users"
 )
 
 
