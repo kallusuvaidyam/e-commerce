@@ -3,7 +3,7 @@ from flask_cors import CORS
 import mysql.connector
 
 app = Flask(__name__)
-CORS(app, origins=["https://your-frontend.vercel.app"], supports_credentials=True)
+CORS(app, origins=["https://e-commerce-beige-beta.vercel.app"], supports_credentials=True)
 
 # ✅ MySQL Connection Function
 def get_db_connection():
