@@ -4,5 +4,15 @@
     "css": {
       "minify": false
     }
-  }
+  },
+  "routes": [
+    {
+      "src": "/css/.*",
+      "headers": { "Cache-Control": "public, max-age=31536000" }
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ]
 }
