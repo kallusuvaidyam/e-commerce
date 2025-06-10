@@ -1,18 +1,31 @@
 from flask import Flask, request, jsonify
 from flask_cors import CORS
+# import mysql.connector
+
+# app = Flask(__name__)
+# CORS(app, origins=["https://e-commerce-beige-beta.vercel.app"], supports_credentials=True)
+
+# # ✅ MySQL Connection Function
+# def get_db_connection():
+#     return mysql.connector.connect(
+#         host="localhost",
+#         user="root",
+#         password="Root@123",  # apna password yahan likho
+#         database="users"    # apna DB naam yahan likho
+#     )
+
+
+
 import mysql.connector
 
-app = Flask(__name__)
-CORS(app, origins=["https://e-commerce-beige-beta.vercel.app"], supports_credentials=True)
+db = mysql.connector.connect(
+    host="crossover.proxy.rlwy.net",
+    user="root",
+    password="CfhjiuQPraDsuNKOfUMAasRwfHnwYfXX",
+    port=33688,
+    database="railway"
+)
 
-# ✅ MySQL Connection Function
-def get_db_connection():
-    return mysql.connector.connect(
-        host="localhost",
-        user="root",
-        password="Root@123",  # apna password yahan likho
-        database="users"    # apna DB naam yahan likho
-    )
 
 @app.route("/")
 def home():
