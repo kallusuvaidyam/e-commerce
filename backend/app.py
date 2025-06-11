@@ -6,30 +6,32 @@ app = Flask(__name__)
 CORS(app, origins=["https://e-commerce-beige-beta.vercel.app"], supports_credentials=True)
 
 # ✅ MySQL Connection Function
-def get_db_connection():
-    return mysql.connector.connect(
-        host="localhost",
-        user="root",
-        password="Root@123",  # apna password yahan likho
-        database="users"    # apna DB naam yahan likho
-    )
+# def get_db_connection():
+#     return mysql.connector.connect(
+#         host="localhost",
+#         user="root",
+#         password="Root@123",  # apna password yahan likho
+#         database="users"    # apna DB naam yahan likho
+#     )
 
 
 
-# import mysql.connector
 
-# db = mysql.connector.connect(
-#     host="crossover.proxy.rlwy.net",
-#     user="root",
-#     password="CfhjiuQPraDsuNKOfUMAasRwfHnwYfXX",
-#     port=33688,
-#     database="users"
-# )
+# Railway ke Public credentials
+app.config['MYSQL_HOST'] = 'shinkansen.proxy.rlwy.net'
+app.config['MYSQL_PORT'] = 36432
+app.config['MYSQL_USER'] = 'root'
+app.config['MYSQL_PASSWORD'] = 'ZEikXboxKPEqFajAykfZZfToWRUnujgx'
+app.config['MYSQL_DB'] = 'railway'
 
 
 @app.route("/")
 def home():
-    return "Flask backend is running!"
+    cur = mysql.connection.cursor()
+    cur.execute("SHOW TABLES;")
+    tables = cur.fetchall()
+    return jsonify(tables)
+
 
 # ✅ Insert API
 @app.route('/add_user', methods=['POST'])
@@ -41,6 +43,7 @@ def add_user():
     password = data['password']
     address = data['address']
 
+    print(name, email, phone, password, address, "===========================================")
 
     conn = get_db_connection()
     cursor = conn.cursor()
