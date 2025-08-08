@@ -1,7 +1,6 @@
 <template>
   <div class="p-6">
     <i :class="[isGrid ? 'fa fa-list' : 'fa fa-th', 'text-2xl']" @click="isGrid = !isGrid"></i>
-
     <div :class="[isGrid ? 'grid xl:grid-cols-4 2x:grid-cols-5 md:grid-cols-2 lg:grid-cols-3 gap-4' : 'flex flex-col']">
       <div v-for="post in posts" :key="post.id" class="p-4 border rounded shadow">
         <h2 class="text-lg font-semibold">{{ post.title }}</h2>
@@ -24,4 +23,3 @@ const posts = [
   { id: 6, title: 'Vue Lifecycle', description: 'Understanding component lifecycle' },
 ]
 </script>
-

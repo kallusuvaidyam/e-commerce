@@ -67,56 +67,25 @@
   </div>
 </template>
 
-<script>
+<script setup>
 import { ref } from 'vue';
+import multi_cards from '../../multi_cards.json'
+const permissions = multi_cards.permissions
+const restrictions = multi_cards.restrictions
+const thirdPartyLicenses = multi_cards.thirdPartyLicenses
 
-export default {
-  setup() {
-    const currentDate = ref(new Date().toLocaleDateString('en-US', {
-      year: 'numeric',
-      month: 'long',
-      day: 'numeric'
-    }));
+const currentDate = ref(new Date().toLocaleDateString('en-US', {
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric'
+}));
 
-    // Customize these values for your application
-    const appName = ref('My e-commorse website');
-    const contactEmail = ref('kumarkallu56345@gmail.com');
-    const licenseType = ref('MIT License');
-    const licenseUrl = ref('https://opensource.org/licenses/MIT');
+// Customize these values for your application
+const appName = ref('My e-commorse website');
+const contactEmail = ref('kumarkallu56345@gmail.com');
+const licenseType = ref('MIT License');
+const licenseUrl = ref('https://opensource.org/licenses/MIT');
 
-    const permissions = ref([
-      'Commercial use',
-      'Modification',
-      'Distribution',
-      'Private use',
-      'Included warranty disclaimer'
-    ]);
-
-    const restrictions = ref([
-      'You must include the original copyright notice',
-      'You must include the license text in all copies',
-      'You cannot hold the authors liable for damages',
-      'You cannot use the authors\' names to endorse derived products without permission'
-    ]);
-
-    const thirdPartyLicenses = ref({
-      'Vue.js': 'MIT License',
-      'Tailwind CSS': 'MIT License',
-      'Other Library': 'Apache License 2.0'
-    });
-
-    return {
-      currentDate,
-      appName,
-      contactEmail,
-      licenseType,
-      licenseUrl,
-      permissions,
-      restrictions,
-      thirdPartyLicenses
-    };
-  }
-};
 </script>
 
 <style scoped>

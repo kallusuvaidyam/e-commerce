@@ -20,6 +20,7 @@
 import { onMounted, ref } from 'vue'
 const instaEmbed = ref(null)
 
+
 onMounted(() => {
   // Instagram embed script load
   if (!window.instgrm) {

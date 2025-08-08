@@ -1,7 +1,8 @@
 <template>
-  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-    <h2 class="text-4xl font-bold text-gray-800 mb-4 text-[22px] tracking-widest text-center">Our Services</h2>
-    <div v-for="(item, index) in items" :key="index" class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition duration-300 w-[70%] max-[768px]:w-full mx-auto">
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-6">
+    <h2 class="text-4xl font-bold text-gray-800 mb-1 text-[22px] tracking-widest text-center">Our Services</h2>
+    <div v-for="(item, index) in items" :key="index"
+      class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition duration-300 w-[70%] max-[768px]:w-full mx-auto">
       <template v-if="type === 'service'">
         <div class="text-4xl mb-4 text-center">{{ item.icon }}</div>
         <h3 class="text-xl font-semibold text-gray-800 mb-2 text-center">{{ item.title }}</h3>
@@ -27,7 +28,9 @@
         <ul class="mt-6 space-y-4 text-gray-600">
           <li v-for="(f, i) in item.features" :key="i">{{ f }}</li>
         </ul>
-        <button :class="'w-full mt-6 ' + item.buttonColor + ' text-white py-3 rounded-lg hover:' + item.hoverColor + ' transition duration-300'">Get Started</button>
+        <button
+          :class="'w-full mt-6 ' + item.buttonColor + ' text-white py-3 rounded-lg hover:' + item.hoverColor + ' transition duration-300'">Get
+          Started</button>
       </template>
     </div>
   </div>

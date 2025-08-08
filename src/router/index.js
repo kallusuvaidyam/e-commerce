@@ -12,7 +12,6 @@ const router = createRouter({
     { path: '/privacy', name: 'privacy', component: () => import('@/components/Nav_and_Footer/PrivacyPolicy.vue') },
     { path: '/listining', name: 'listining', component: () => import('@/components/Nav_and_Footer/listining.vue') },
     { path: '/login', name: 'login', component: () => import('@/components/Jump_buttons/LogIn.vue'), meta: { guestOnly: true } },
-    { path: '/logged-in-users', name: 'loggedInUsers', component: () => import('@/components/Jump_buttons/loggedIn_users.vue'), meta: { requiresAuth: true } },
     { path: '/learn_more', name: 'learn_more', component: () => import('@/components/Jump_buttons/Learn_more.vue') },
     { path: '/services', name: 'services', component: () => import('@/components/Other/Services.vue'), meta: { requiresAuth: true } },
     {
@@ -23,17 +22,17 @@ const router = createRouter({
   ],
 })
 
-router.beforeEach((to, from, next) => {
-  const isAuthenticated = !!localStorage.getItem('user_info') // !!: Double NOT operator — iska use isliye kiya jaata hai taaki koi bhi value ko true/false me convert kiya jaa sake.
+// router.beforeEach((to, from, next) => {
+//   const isAuthenticated = !!localStorage.getItem('user_info') // !!: Double NOT operator — iska use isliye kiya jaata hai taaki koi bhi value ko true/false me convert kiya jaa sake.
 
-  if (to.meta.requiresAuth && !isAuthenticated) {
-    alert('Please login and see my professional website')
-    next({ name: 'login' })
-  } else if (to.meta.guestOnly && isAuthenticated) {
-    next("/")
-  } else {
-    next()
-  }
-})
+//   if (to.meta.requiresAuth && !isAuthenticated) {
+//     alert('Please login and see my professional website')
+//     next({ name: 'login' })
+//   } else if (to.meta.guestOnly && isAuthenticated) {
+//     next("/")
+//   } else {
+//     next()
+//   }
+// })
 
 export default router

@@ -1,10 +1,7 @@
 <template>
   <div id="scroll_btn" class="relative">
-    <i
-    v-show="showScrollToTop"
-    @click="scrollToTop"
-    class="fa fa-arrow-up text-[20px] text-white bg-green-600 p-[10px] rounded-[50%] fixed right-[35px] bottom-[35px] z-50 cursor-pointer hover:bg-green-700 transition"
-    />
+    <i v-show="showScrollToTop" @click="scrollToTop"
+      class="fa fa-arrow-up text-[20px] text-white bg-green-600 p-[10px] rounded-[50%] fixed right-[35px] bottom-[35px] z-50 cursor-pointer hover:bg-green-700 transition" />
   </div>
 </template>
 
@@ -33,6 +30,4 @@ onUnmounted(() => {
 })
 </script>
 
-<style>
-
-</style>
+<style></style>

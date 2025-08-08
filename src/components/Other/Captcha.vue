@@ -3,25 +3,15 @@
     <div class="bg-white p-8 rounded-lg shadow-md text-center">
       <h2 class="text-xl font-semibold mb-4">Verify You're Human</h2>
       <canvas ref="canvasRef" width="200" height="50" class="my-2 border border-gray-300 bg-gray-200"></canvas>
-      <button
-        @click="generateCaptcha"
-        class="mt-2 mb-4 px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700"
-      >
+      <button @click="generateCaptcha" class="mt-2 mb-4 px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700">
         Reload CAPTCHA
       </button>
-      <input
-        v-model="userInput"
-        type="text"
-        placeholder="Enter CAPTCHA"
-        class="w-48 p-2 mb-2 border border-gray-300 rounded outline-none"
-      />
+      <input v-model="userInput" type="text" placeholder="Enter CAPTCHA"
+        class="w-48 p-2 mb-2 border border-gray-300 rounded outline-none" />
       <div :class="['text-sm mt-2', isCorrect === true ? 'text-green-600' : isCorrect === false ? 'text-red-600' : '']">
         {{ resultMessage }}
       </div>
-      <button
-        @click="validateCaptcha"
-        class="mt-3 px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700"
-      >
+      <button @click="validateCaptcha" class="mt-3 px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700">
         Submit
       </button>
     </div>

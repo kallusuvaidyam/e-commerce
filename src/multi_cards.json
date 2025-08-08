@@ -1,0 +1,265 @@
+{
+  "multi_cards": [
+    {
+      "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?q=80&w=781&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "title": "Food",
+      "subtitle": "Creative & modern visuals",
+      "description": "Food is essential for life, giving energy, health, and happiness.",
+      "buttonText": "Buy Now",
+      "category": "Foods",
+      "link": "https://kalluweb.vercel.app",
+      "div_class": "card hover:shadow-lg transition-all duration-300 ease-in-out max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700",
+      "img_class": "card-image rounded-t-lg w-full hover:scale-[1.1] transition-all duration-300 ease-in-out",
+      "h5_class": "font-serif text-[25px]  mb-2 text-2xl font-bold tracking-tight text-gray-600",
+      "p_class": "mb-3 font-normal text-gray-700 font-serif text-[16px]",
+      "a_class": "inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:outline-none dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+    },
+    {
+      "image": "https://plus.unsplash.com/premium_photo-1683121716061-3faddf4dc504?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "title": "Technology",
+      "subtitle": "Creative & modern visuals",
+      "description": "The quality of the keyboard affects typing speed, comfort and remoteness.",
+      "buttonText": "Buy Now",
+      "category": "Techs",
+      "link": "https://kalluweb.vercel.app",
+      "div_class": "card hover:shadow-lg transition-all duration-300 ease-in-out max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700",
+      "img_class": "card-image rounded-t-lg w-full hover:scale-[1.1] transition-all duration-300 ease-in-out",
+      "h5_class": "font-serif text-[25px]  mb-2 text-2xl font-bold tracking-tight text-gray-600",
+      "p_class": "mb-3 font-normal text-gray-700 font-serif text-[16px]",
+      "a_class": "inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:outline-none dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+    },
+    {
+      "image": "https://plus.unsplash.com/premium_photo-1673108852141-e8c3c22a4a22?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "title": "Food",
+      "subtitle": "Creative & modern visuals",
+      "description": "Food is essential for life, giving energy, health, and happiness.",
+      "buttonText": "Buy Now",
+      "category": "Foods",
+      "link": "https://kalluweb.vercel.app",
+      "div_class": "card hover:shadow-lg transition-all duration-300 ease-in-out max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700",
+      "img_class": "card-image rounded-t-lg w-full hover:scale-[1.1] transition-all duration-300 ease-in-out",
+      "h5_class": "font-serif text-[25px]  mb-2 text-2xl font-bold tracking-tight text-gray-600",
+      "p_class": "mb-3 font-normal text-gray-700 font-serif text-[16px]",
+      "a_class": "inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:outline-none dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1441984904996-e0b6ba687e04?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fENsb3RoZXN8ZW58MHx8MHx8fDA%3D",
+      "title": "Clothes",
+      "subtitle": "Creative & modern visuals",
+      "description": "Clothes protect the body, express style, and reflect culture.",
+      "buttonText": "Buy Now",
+      "category": "Clothes",
+      "link": "https://kalluweb.vercel.app",
+      "div_class": "card hover:shadow-lg transition-all duration-300 ease-in-out max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700",
+      "img_class": "card-image rounded-t-lg w-full hover:scale-[1.1] transition-all duration-300 ease-in-out",
+      "h5_class": "font-serif text-[25px]  mb-2 text-2xl font-bold tracking-tight text-gray-600",
+      "p_class": "mb-3 font-normal text-gray-700 font-serif text-[16px]",
+      "a_class": "inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:outline-none dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1604866830893-c13cafa515d5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Qm9va3N8ZW58MHx8MHx8fDA%3D",
+      "title": "Books",
+      "subtitle": "Creative & modern visuals",
+      "description": "Books provide knowledge, spark imagination, and preserve stories and history.",
+      "buttonText": "Buy Now",
+      "category": "Books",
+      "link": "https://kalluweb.vercel.app",
+      "div_class": "card hover:shadow-lg transition-all duration-300 ease-in-out max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700",
+      "img_class": "card-image rounded-t-lg w-full hover:scale-[1.1] transition-all duration-300 ease-in-out",
+      "h5_class": "font-serif text-[25px]  mb-2 text-2xl font-bold tracking-tight text-gray-600",
+      "p_class": "mb-3 font-normal text-gray-700 font-serif text-[16px]",
+      "a_class": "inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:outline-none dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8dGVjaG5vbG9neXxlbnwwfHwwfHx8MA%3D%3D",
+      "title": "Technology",
+      "subtitle": "Creative & modern visuals",
+      "description": "A mouse is a device that controls the computer cursor easily.",
+      "buttonText": "Buy Now",
+      "category": "Techs",
+      "link": "https://kalluweb.vercel.app",
+      "div_class": "card hover:shadow-lg transition-all duration-300 ease-in-out max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700",
+      "img_class": "card-image rounded-t-lg w-full hover:scale-[1.1] transition-all duration-300 ease-in-out",
+      "h5_class": "font-serif text-[25px]  mb-2 text-2xl font-bold tracking-tight text-gray-600",
+      "p_class": "mb-3 font-normal text-gray-700 font-serif text-[16px]",
+      "a_class": "inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:outline-none dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+    },
+    {
+      "image": "https://plus.unsplash.com/premium_photo-1683120972279-87efe2ba252f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjF8fHRlY2hub2xvZ3l8ZW58MHx8MHx8fDA%3D",
+      "title": "Technology",
+      "subtitle": "Creative & modern visuals",
+      "description": "An office is a place where people work, plan, and collaborate.",
+      "buttonText": "Buy Now",
+      "category": "Techs",
+      "link": "https://kalluweb.vercel.app",
+      "div_class": "card hover:shadow-lg transition-all duration-300 ease-in-out max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700",
+      "img_class": "card-image rounded-t-lg w-full hover:scale-[1.1] transition-all duration-300 ease-in-out",
+      "h5_class": "font-serif text-[25px]  mb-2 text-2xl font-bold tracking-tight text-gray-600",
+      "p_class": "mb-3 font-normal text-gray-700 font-serif text-[16px]",
+      "a_class": "inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:outline-none dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+    }
+  ],
+  "features": [
+    {
+      "icon": "fa fa-line-chart",
+      "title": "Data-Driven Approach",
+      "description": "We use analytics to make informed decisions that drive results."
+    },
+    {
+      "icon": "fa fa-cog",
+      "title": "Custom Solutions",
+      "description": "Tailored services to meet your specific business requirements."
+    },
+    {
+      "icon": "fas fa-shield-alt",
+      "title": "Secure & Reliable",
+      "description": "Enterprise-grade security to protect your data and operations."
+    }
+  ],
+  "services": [
+    {
+      "icon": "fa fa-cog",
+      "name": "Web Development",
+      "description": "Custom websites and web applications built with modern technologies."
+    },
+    {
+      "icon": "fa fa-phone",
+      "name": "Mobile Apps",
+      "description": "iOS and Android apps that engage your customers."
+    },
+    {
+      "icon": "fa fa-server",
+      "name": "Cloud Solutions",
+      "description": "Scalable cloud infrastructure for your growing business."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Consultation",
+      "description": "We discuss your requirements and goals."
+    },
+    {
+      "title": "Planning",
+      "description": "Our team creates a customized solution plan."
+    },
+    {
+      "title": "Execution",
+      "description": "We implement the solution with regular updates."
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "Amaresh Sir",
+      "position": "MCA. Qualified.",
+      "quote": "Our business grew by 50% after implementing their solutions. Highly recommended!",
+      "avatar": "clientImg"
+    },
+    {
+      "name": "Vrindharak Sir",
+      "position": "MCA. Qualified.",
+      "quote": "The team delivered exceptional results on time and within budget.",
+      "avatar": "Vrindharak"
+    },
+    {
+      "name": "Ritesh Sir",
+      "position": "MCA. Qualified.",
+      "quote": "Their expertise helped us scale our operations efficiently.",
+      "avatar": "Ritesh"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "How much do your services cost?",
+      "answer": "Our pricing varies based on project scope and requirements. Contact us for a free quote tailored to your needs."
+    },
+    {
+      "question": "What industries do you specialize in?",
+      "answer": "We have experience across multiple industries including technology, healthcare, finance, and e-commerce."
+    },
+    {
+      "question": "How long does a typical project take?",
+      "answer": "Project timelines depend on complexity, but we always provide estimated delivery dates during our initial consultation."
+    }
+  ],
+  "permissions": [
+    "Commercial use",
+    "Modification",
+    "Distribution",
+    "Private use",
+    "Included warranty disclaimer"
+  ],
+  "restrictions": [
+    "You must include the original copyright notice",
+    "You must include the license text in all copies",
+    "You cannot hold the authors liable for damages",
+    "You cannot use the authors' names to endorse derived products without permission"
+  ],
+  "thirdPartyLicenses": {
+    "Vue.js": "MIT License",
+    "Tailwind CSS": "MIT License",
+    "Other Library": "Apache License 2.0"
+  },
+  "information": [
+  "To provide and maintain our service",
+  "To notify you about changes to our service",
+  "To allow you to participate in interactive features",
+  "To provide customer support",
+  "To gather analysis or valuable information",
+  "To monitor the usage of our service",
+  "To detect, prevent and address technical issues"
+  ],
+  "data": [
+    "Access, update or delete your information",
+    "Rectify inaccurate data",
+    "Object to our processing of your data",
+    "Request restriction of processing",
+    "Data portability",
+    "Withdraw consent"
+  ],
+  "title": "Essential Web Development Strategies for Beginners in 2025",
+  "author": "Kallu Kumar",
+  "date": "March 4, 2025",
+  "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+  "intro": "In this comprehensive guide, we'll explore the most effective web development strategies for beginners in 2025, covering everything from technology selection to career development.",
+  "sections": [
+    {
+      "heading": "1. Choosing the Right Technology Stack",
+      "text": "After mastering HTML and CSS, focus on JavaScript as your core programming language. For frontend development, Vue 3 or React provide excellent ecosystems for building modern web applications."
+    },
+    {
+      "heading": "2. Essential Development Tools",
+      "list": [
+        "Visual Studio Code - A lightweight yet powerful code editor with extensive extensions",
+        "Vue 3 - The progressive JavaScript framework for building reactive interfaces",
+        "Tailwind CSS - A utility-first CSS framework for rapid UI development"
+      ]
+    },
+    {
+      "heading": "3. Building Practical Projects",
+      "text": "Develop your skills through hands-on experience by creating real-world projects. Aim to build a portfolio with 3-4 substantial projects that demonstrate your capabilities."
+    },
+    {
+      "heading": "4. Launching Your Freelance Career",
+      "text": "Establish profiles on platforms like Fiverr and Upwork to begin taking on small projects. Create a professional personal website to showcase your work and attract clients."
+    }
+  ],
+  "tags": [
+    "Web Development",
+    "Vue 3",
+    "Freelancing",
+    "Tailwind CSS",
+    "Career Growth"
+  ],
+  "related": [
+    {
+      "title": "How to Launch a Successful Freelance Development Business in 2025",
+      "desc": "A step-by-step guide to establishing your independent web development career with practical tips for finding clients.",
+      "image": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+    },
+    {
+      "title": "Top Vue 3 Libraries and Tools Every Developer Should Know",
+      "desc": "Enhance your Vue applications with these essential libraries that streamline development and add powerful features.",
+      "image": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+    }
+  ]
+}
